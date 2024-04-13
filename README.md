@@ -30,4 +30,4 @@ DIDON is an association founded in 2018 with a vision for cultural and socio-eco
 5. If you have any questions or need assistance, feel free to reach out to us through the contact information provided on the website.
 
 ## Support
-For any issues or questions regarding the application, please contact [provide contact information].
+For any issues or questions regarding the application, please contact one of us {tliliahmedmalek@gmail.com , mahdi.barhoumi@ensi-uma.tn mohamedali.hentati@ensi-uma.tn}
