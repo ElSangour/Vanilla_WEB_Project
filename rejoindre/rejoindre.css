@@ -1,0 +1,144 @@
+/* Added by Malek/Dali? */
+
+html, body {
+    margin: 0;
+    border: 0;
+    background-color: #30343F;
+}
+
+.space {
+    color: #CD7F32;
+    font-size: large;
+    margin-left: 3vw;
+}
+
+input {
+    margin-top: 12px;
+    height: 5vh;
+    width: 40vw;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 0;
+}
+
+select {
+    height: 5vh;
+    width: 41vw;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+.check {
+    width:5vw;
+}
+
+#formulaire {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding-top: 3vw;
+    background-color: #1A1D21;
+    margin-top: calc(70px + 2vw);
+    margin-left: 20vw;
+    width: 50vw;
+    margin-bottom: 5vw;
+}
+
+button {
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 5vw;
+    margin-left: 3.5vw;
+    width: 40vw;
+    height: 5.5vh;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,255,136,1) 0%, rgba(0,255,0,1) 100%);
+}
+
+/* Footer CSS */
+
+footer {
+    color: #FAFAFF;
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3e4551;
+}
+
+footer a {
+    color: #FAFAFF;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #FAFAFF;
+    text-decoration: none;  
+}
+
+footer a:hover {
+    color: #FAFAFF;
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 95%;
+    opacity: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-top: 1px;
+}
+
+footer .content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr 1fr;
+}
+
+footer .content div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer .content li {
+    margin-bottom: 5px;
+}
+
+footer .joinus a {
+    display: flex;
+    justify-content: center;
+    opacity: 75%;
+    height: 25px;
+    width: 175px;
+    font-size: 20px;
+    color: #FAFAFF;
+    background-color: transparent;
+    border-color: #FAFAFF;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    background-color: #FFD700;
+    color: #30343F;
+    text-decoration: none;
+    position: relative;
+    left: 42%;
+  
+}
+
+footer .joinus a:hover {
+    background-color: #FFC800;
+}
+
+footer .copyright {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
