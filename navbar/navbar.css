@@ -1,0 +1,50 @@
+/* Added by Dali */
+
+body {
+    margin: 0;
+    border: 0;   
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.navbar1 { 
+    background-color: #1A1D21;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3vw;
+    z-index: 500;
+}
+
+.navbar1 div {
+    margin-right:1vw;
+    margin-left:1vw;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color:#CD7F32;
+    font-size: 2.5vw;
+    align-self: center; 
+}
+
+.navbar1 div:hover a {
+    color:#1A1D21;
+    transition:200ms ;
+}
+
+.holder {
+    display: grid;
+    grid-template-columns: 90px auto;
+}
+
+.navbar1 div:hover {
+    border-radius: 2px;
+    display: flex;
+    height: 70px;
+    background:#CD7F32;
+}
