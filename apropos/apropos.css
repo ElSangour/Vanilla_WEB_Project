@@ -1,0 +1,152 @@
+body {
+
+    border: 0px;
+    padding: 0px;
+    background-color: #30343F;
+}
+
+/* @font-face {
+    font-family: 'nidus_sansregular';
+    src: url('nidsans-webfont.eot');
+    src: url('nidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nidsans-webfont.woff2') format('woff2'),
+         url('nidsans-webfont.woff') format('woff'),
+         url('nidsans-webfont.ttf') format('truetype'),
+         url('nidsans-webfont.svg#nidus_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* Main CSS */
+
+main .logo {
+    background-color: black;
+    height: 90px;
+    width: 90px;
+}
+
+main .adm {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+main p {
+    color :aliceblue;
+}
+
+main ul {
+    color: aliceblue;
+}
+
+main .sa {
+    display: flex;
+    flex-direction: column;
+    max-width: 87%;
+    justify-content: center;
+    margin-left: 50px;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'PT Serif', serif;
+   
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+
+    font-family: 'PT Serif', serif;
+}
+.activities_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
+ 
+}
+.activity{
+  background-color:black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Footer CSS */
+
+footer {
+    color: #FAFAFF;
+    font-family: "Poppins", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #3e4551;
+}
+
+footer a {
+    color: #FAFAFF;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #FAFAFF;
+    text-decoration: none;  
+}
+
+footer a:hover {
+    color: #FAFAFF;
+    text-decoration: underline;
+}
+
+footer hr {
+    width: 95%;
+    opacity: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 1px;
+    border-top: 1px;
+}
+
+footer .content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1.25fr 1fr 1fr 1fr;
+}
+
+footer .content div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer .content li {
+    margin-bottom: 5px;
+}
+
+footer .joinus a {
+    display: flex;
+    justify-content: center;
+    opacity: 75%;
+    height: 25px;
+    width: 175px;
+    font-size: 20px;
+    color: #FAFAFF;
+    background-color: transparent;
+    border-color: #FAFAFF;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    background-color: #FFD700;
+    color: #30343F;
+    text-decoration: none;
+    position: relative;
+    left: 42%;
+  
+}
+
+footer .joinus a:hover {
+    background-color: #FFC800;
+}
+
+footer .copyright {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
